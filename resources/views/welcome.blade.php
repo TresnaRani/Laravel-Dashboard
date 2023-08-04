@@ -18,134 +18,88 @@
            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
     </head>
    
-    <body >
-    <div class="grid-container">
+    <body>
+        <div class="wrapper">
+    <div class="sidebar">
+   <ul>
+  <li><a href="#home"><i class="fa fa-tachometer"></i>Dashboard</a><li>
+  <li><a href="#users"><i class="fa-solid fa-user"></i>Users</a></li>
+  <li><a href="#users"><i class="fa-solid fa-people-group"></i>Group</a></li>
+  <li><a href="#users"><i class="fa-sharp fa-solid fa-tags"></i></i>Brands</a></li>
+  <li><a href="#users"><i class="fa-sharp fa-solid fa-arrows-to-eye"></i>Category</a></li>
+  <li><a href="#users"><i class="fa fa-fw fa-home"></i>Stores</a></li>
+  <li><a href="#users"><i class="fa fa-fw fa-home"></i>Attributes</a></li>
+  <li><a href="#users"><i class="fa fa-fw fa-home"></i>Products</a></li>
+  <li><a href="#users"><i class="fa fa-fw fa-home"></i>Order</a></li>
+  <li><a href="#users"><i class="fa fa-fw fa-home"></i>Reports</a></li>
+  <li><a href="#users"><i class="fa fa-fw fa-home"></i>Company</a></li>
+  <li><a href="#users"><i class="fa fa-fw fa-home"></i>profile</a></li>
+  <li><a href="#services"><i class="fa fa-fw fa-wrench"></i> Services</a></li>
+  <li><a href="#users"><i class="bi bi-gear"></i>Setting</a></li>
+  <li><a href="#contact"><i class="fa fa-fw fa-envelope"></i> Contact</a></li>
+  <li> <a href="#users"><i class="fa fa-fw fa-home"></i>Logout</a></li>
+</ul>
+ </div>
 
-<!-- Header -->
-<header class="header">
-  <div class="menu-icon" onclick="openSidebar()">
-    <span class="material-icons-outlined">menu</span>
-  </div>
-  <div class="header-left">
-    <span class="material-icons-outlined">search</span>
-  </div>
-  <div class="header-right">
-    <span class="material-icons-outlined">notifications</span>
-    <span class="material-icons-outlined">email</span>
-    <span class="material-icons-outlined">account_circle</span>
-  </div>
-</header>
-<!-- End Header -->
-
-      <!-- Sidebar -->
-      <aside id="sidebar">
-        <div class="sidebar-title">
-          <div class="sidebar-brand">
-            <span class="material-icons-outlined">inventory</span> Bob's Inventory
-          </div>
-          <span class="material-icons-outlined" onclick="closeSidebar()">close</span>
+ <div class="main_content">
+        <div class="header bg-dark">Welcome!! Have a nice day.</div>  
+        <div class="info">
+        
+             <!-- Blog-->
+             <section class="resume-section" id="Blog">
+                <div class="resume-section-content">
+                
+              <div class="row ">
+                <div class="col-lg-3 my-5">
+                    <div class="card1">
+                        <div class="card-body">
+                            <img class="img1" src="assets/img/p6.jpg" alt=""width="200px" height="230px">
+                           
+                            <p>If you want more details,follow our activitis.</p>
+                        
+             <div class="text-center"><button type="submit" class="btn btn-success">==></button></div>
         </div>
-
-        <ul class="sidebar-list">
-          <li class="sidebar-list-item">
-            <a href="#" target="_blank">
-              <span class="material-icons-outlined">dashboard</span> Dashboard
-            </a>
-          </li>
-          <li class="sidebar-list-item">
-            <a href="#" target="_blank">
-              <span class="material-icons-outlined">inventory_2</span> Products
-            </a>
-          </li>
-          <li class="sidebar-list-item">
-            <a href="#" target="_blank">
-              <span class="material-icons-outlined">fact_check</span> Inventory
-            </a>
-          </li>
-          <li class="sidebar-list-item">
-            <a href="#" target="_blank">
-              <span class="material-icons-outlined">add_shopping_cart</span> Purchase Orders
-            </a>
-          </li>
-          <li class="sidebar-list-item">
-            <a href="#" target="_blank">
-              <span class="material-icons-outlined">shopping_cart</span> Sales Orders
-            </a>
-          </li>
-          <li class="sidebar-list-item">
-            <a href="#" target="_blank">
-              <span class="material-icons-outlined">poll</span> Reports
-            </a>
-          </li>
-          <li class="sidebar-list-item">
-            <a href="#" target="_blank">
-              <span class="material-icons-outlined">settings</span> Settings
-            </a>
-          </li>
-        </ul>
-      </aside>
-      <!-- End Sidebar -->
-      <!-- Main -->
-      <main class="main-container">
-        <div class="main-title">
-          <p class="font-weight-bold">DASHBOARD</p>
-        </div>
-
-        <div class="main-cards">
-
-          <div class="card">
-            <div class="card-inner">
-              <p class="text-primary">PRODUCTS</p>
-              <span class="material-icons-outlined text-blue">inventory_2</span>
-            </div>
-            <span class="text-primary font-weight-bold">249</span>
-          </div>
-
-          <div class="card">
-            <div class="card-inner">
-              <p class="text-primary">PURCHASE ORDERS</p>
-              <span class="material-icons-outlined text-orange">add_shopping_cart</span>
-            </div>
-            <span class="text-primary font-weight-bold">83</span>
-          </div>
-
-          <div class="card">
-            <div class="card-inner">
-              <p class="text-primary">SALES ORDERS</p>
-              <span class="material-icons-outlined text-green">shopping_cart</span>
-            </div>
-            <span class="text-primary font-weight-bold">79</span>
-          </div>
-
-          <div class="card">
-            <div class="card-inner">
-              <p class="text-primary">INVENTORY ALERTS</p>
-              <span class="material-icons-outlined text-red">notification_important</span>
-            </div>
-            <span class="text-primary font-weight-bold">56</span>
-          </div>
-
-        </div>
-
-        <div class="charts">
-
-          <div class="charts-card">
-            <p class="chart-title">Top 5 Products</p>
-            <div id="bar-chart"></div>
-          </div>
-
-          <div class="charts-card">
-            <p class="chart-title">Purchase and Sales Orders</p>
-            <div id="area-chart"></div>
-          </div>
-
-        </div>
-      </main>
-      <!-- End Main -->
-
     </div>
-
-
+</div>
+    <div class="col-lg-3 my-5">
+        <div class="card1 ">
+            <div class="card-body">
+              <img src="assets/img/p4.jpg" alt=""width="200px" height="230px" >
+          
+                <p>If you want more details,follow our activitis.</p>
+                        
+              
+            <div class="text-center"><button type="submit" class="btn btn-success">==></button></div>
+</div>
+</div>
+</div>
+      <div class="col-lg-3 my-5">
+          <div class="card1">
+              <div class="card-body">
+                 <img src="assets/img/p7.jpg" alt=""width="200px" height="230px" >
+               
+                   <p>If you want more details,follow our activitis.</p>
+                        
+                   <div class="text-center"><button type="submit" class="btn btn-success">==> </button></div>
+                  
+</div>
+</div>
+</div>
+          <div class="col-lg-3 my-5">
+              <div class="card1">
+                  <div class="card-body">
+                      <img src="assets/img/p5.jpg" alt="" width="200px" height="230px" >
+                          
+                           <p>If you want more details,follow our activitis.</p>
+                        
+                      <div class="text-center"><button type="submit" class="btn btn-success">==></button></div>
+    </div>
+        </div>
+            </div>
+             
+          <div>
+</div>
+          </div>
 
     </body>
 

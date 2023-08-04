@@ -41,4 +41,28 @@
     color: chartreuse;
     background-color: blue;
   }
+  .row{
+    background-color: aqua;
+  }
 
+
+
+  {{   <div class="sidebar">
+   
+    <a href="#home"><i class="fa fa-tachometer"></i>Dashboard</a>
+    <a href="#users"><i class="fa-solid fa-user"></i>Users</a>
+    <a href="#users"><i class="fa-solid fa-people-group"></i>Group</a>
+    <a href="#users"><i class="fa-sharp fa-solid fa-tags"></i></i>Brands</a>
+    <a href="#users"><i class="fa-sharp fa-solid fa-arrows-to-eye"></i>Category</a>
+    <a href="#users"><i class="fa fa-fw fa-home"></i>Stores</a>
+    <a href="#users"><i class="fa fa-fw fa-home"></i>Attributes</a>
+    <a href="#users"><i class="fa fa-fw fa-home"></i>Products</a>
+    <a href="#users"><i class="fa fa-fw fa-home"></i>Order</a>
+    <a href="#users"><i class="fa fa-fw fa-home"></i>Reports</a>
+    <a href="#users"><i class="fa fa-fw fa-home"></i>Company</a>
+    <a href="#users"><i class="fa fa-fw fa-home"></i>profile</a>
+    <a href="#services"><i class="fa fa-fw fa-wrench"></i> Services</a>
+    <a href="#users"><i class="bi bi-gear"></i>Setting</a>
+    <a href="#contact"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+    <a href="#users"><i class="fa fa-fw fa-home"></i>Logout</a>
+  </div>}}

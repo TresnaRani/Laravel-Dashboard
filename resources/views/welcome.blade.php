@@ -42,7 +42,7 @@
  </div>
 
  <div class="main_content">
-        <div class="header bg-dark">Welcome!! Have a nice day.</div>  
+        <div class="header bg-dark">Welcome!! Have a nice day.</p></div>  
         <div class="info">
         
              <!-- Blog-->
@@ -53,7 +53,7 @@
                 <div class="col-lg-3 my-5">
                     <div class="card1">
                         <div class="card-body">
-                            <img class="img1" src="assets/img/p6.jpg" alt=""width="200px" height="230px">
+                            <img class="img1" src="assets/img/p6.jpg" alt=""width="250px" height="230px">
                            
                             <p>If you want more details,follow our activitis.</p>
                         
@@ -64,7 +64,7 @@
     <div class="col-lg-3 my-5">
         <div class="card1 ">
             <div class="card-body">
-              <img src="assets/img/p4.jpg" alt=""width="200px" height="230px" >
+              <img src="assets/img/p4.jpg" alt=""width="250px" height="230px" >
           
                 <p>If you want more details,follow our activitis.</p>
                         
@@ -76,7 +76,7 @@
       <div class="col-lg-3 my-5">
           <div class="card1">
               <div class="card-body">
-                 <img src="assets/img/p7.jpg" alt=""width="200px" height="230px" >
+                 <img src="assets/img/p7.jpg" alt=""width="250px" height="230px" >
                
                    <p>If you want more details,follow our activitis.</p>
                         
@@ -88,7 +88,7 @@
           <div class="col-lg-3 my-5">
               <div class="card1">
                   <div class="card-body">
-                      <img src="assets/img/p5.jpg" alt="" width="200px" height="230px" >
+                      <img src="assets/img/p5.jpg" alt="" width="250px" height="230px" >
                           
                            <p>If you want more details,follow our activitis.</p>
                         

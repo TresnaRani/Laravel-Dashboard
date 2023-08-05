@@ -23,6 +23,7 @@ body{
   background:violet;
   padding: 30px 0px;
   position: fixed;
+  background-color: aqua;
 }
 
 .wrapper .sidebar ul li{
@@ -71,4 +72,14 @@ body{
 
 .wrapper .main_content .info div{
   margin-bottom: 20px;
+}
+.card1:hover{
+  box-shadow: 0 16px 32px 0 ;
+  color: #04414d;
+}
+.card1{
+  padding: 10px;
+}
+.header{
+  color: aqua;
 }
